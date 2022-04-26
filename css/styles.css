@@ -1,0 +1,190 @@
+html { overflow-y: scroll; overflow-x:hidden; }
+
+#nav-nav{
+    width: 100%;
+    height: 35px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: none;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    position: sticky;
+}
+#nav-links{
+    text-align: left;
+font: normal normal medium 16px/19px Poppins;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+position: relative;
+left: 140px;
+padding-right: 70px;
+}
+#nav-logo{
+    height: 15px;
+    padding-left: 20px;
+} 
+#hero-head{
+    text-align: left;
+    font: normal normal 600 60px/90px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#hero-head-1{
+    font: normal normal 600 60px/90px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#hero-subhead{
+    text-align: left;
+    font: normal normal normal 29px/43px Poppins;
+letter-spacing: 0px;
+color: #5D5D5D;
+opacity: 1;
+}
+#hero-btn{
+    width: 270px;
+height: 60px;
+border-color: #EC7E2C;
+background: #EC7E2C 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+font: normal normal medium 16px/25px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: none;
+}
+
+
+#sel-len{
+    width: 363px;
+height: 60px;
+/* UI Properties */
+border: 1px solid var(--unnamed-color-ec7e2c);
+border: 1px solid #EC7E2C;
+border-radius: 10px;
+opacity: 1;
+font: normal normal medium 15px/23px Poppins;
+letter-spacing: 0px;
+color: #111111;
+text-transform: none;
+}
+#frame-only{
+    width: 363px;
+height: 60px;
+/* UI Properties */
+background: var(--unnamed-color-ec7e2c) 0% 0% no-repeat padding-box;
+background: #EC7E2C 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+font: normal normal medium 15px/23px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: none;
+
+}
+#container-marketing{
+    margin-top: 1.5vw;
+}
+#headings{
+    font: normal normal medium 40px/60px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+text-align: center;
+padding-bottom: 2vw;
+}
+@media screen and (max-width: 768px) {
+    #headings{
+        font-size:30px;
+    }
+}
+#glass-container{
+    width: 25%;
+}
+.glass-image{
+    
+    width: 173px;
+    height: 78px;
+    align-items: center;
+}
+.glass-head{
+    font: normal normal medium 20px/30px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+text-align: justify;
+}
+#bl-head{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-40)/var(--unnamed-line-spacing-60) var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0);
+font: normal normal medium 40px/60px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-size: 40px;
+}
+#bl-subhead{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 21px/31px var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0);
+font: normal normal normal 21px/31px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#bl-btn{
+    width: 270px;
+height: 60px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/25px var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0);
+font: normal normal medium 16px/25px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+border-color: #000000;
+    background: #111111 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+#test-card{
+    width: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 24px;
+opacity: 1;
+}
+.gradient-custom {background-color: #E9DFD8; height: auto; width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+    .carousel-indicators [data-mdb-target] { border-radius: 50%; width: 10px; height: 10px; }
+
+    #cl-btn{
+        width: 270px;
+    height: 60px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/25px var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-color: #D25A00;
+        background:#D25A00 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    
+    }
+    #cl-head{
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-40)/var(--unnamed-line-spacing-60) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal medium 40px/60px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 40px;
+    text-align: center;
+    }
+    
+    
